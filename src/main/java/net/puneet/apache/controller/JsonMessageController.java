@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/kafka")
 public class JsonMessageController {
 
+    // This is kafka message controller
+
     private JsonKafkaProducer kafkaProducer;
 
     public JsonMessageController(JsonKafkaProducer kafkaProducer) {
